@@ -29,6 +29,10 @@ OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
+OutputMedium3=Gerbers
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=BOM
+OutputMedium4_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=schematic
 OutputCategory1=Documentation
@@ -37,6 +41,8 @@ OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration1_Name1=OutputConfigurationParameter1
@@ -49,8 +55,68 @@ OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType3=Gerber
+OutputName3=Gerber Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=eye.PcbDoc
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=1
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False
+OutputType4=NC Drill
+OutputName4=NC Drill Files
+OutputCategory4=Fabrication
+OutputDocumentPath4=eye.PcbDoc
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=2
+OutputEnabled4_OutputMedium4=0
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
+OutputType5=BOM_PartType
+OutputName5=bom
+OutputCategory5=Report
+OutputDocumentPath5=[ActiveBOM Document]
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=1
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=Filter
+Configuration5_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration5_Name3=General
+Configuration5_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1169|FormHeight=816|SupplierProdQty=1|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=SEK|ViewType=0
+Configuration5_Name4=GroupOrder
+Configuration5_Item4=
+Configuration5_Name5=OutputConfigurationParameter1
+Configuration5_Item5=intView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+Configuration5_Name6=SortOrder
+Configuration5_Item6=Description=Up|Designator=Up
+Configuration5_Name7=VisibleOrder
+Configuration5_Item7=Line #=70|Comment=87|Description=104|Designator=147|Quantity=83|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration5_Name8=VisibleOrder_Base
+Configuration5_Item8=Line #=70|Comment=87|Description=104|Designator=147|Quantity=83|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration5_Name9=VisibleOrder_Consolidated
+Configuration5_Item9=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration5_Name10=VisibleOrder_Flat
+Configuration5_Item10=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
 
 [PublishSettings]
 OutputFilePath2=.\make_commit.PDF
@@ -80,8 +146,54 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
+OutputFilePath3=C:\Users\gusta\Documents\projects\pcb-ash-eye\Project Outputs for eye\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for eye
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=0
+OutputFilePath4=C:\Users\gusta\Documents\projects\pcb-ash-eye\.\
+ReleaseManaged4=0
+OutputBasePath4=.\
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+OutputFileNameMulti4=
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=0
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=.\make_commit.PDF
 OpenOutputs2=0
+RelativeOutputPath3=C:\Users\gusta\Documents\projects\pcb-ash-eye\Project Outputs for eye\
+OpenOutputs3=0
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=C:\Users\gusta\Documents\projects\pcb-ash-eye\.\
+OpenOutputs4=0
+AddToProject4=0
+TimestampFolder4=0
+UseOutputName4=1
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
 

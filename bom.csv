@@ -1,0 +1,8 @@
+Line #,Name,Description,Designator,Quantity,Manufacturer 1,Manufacturer Part Number 1,Manufacturer Lifecycle 1,Supplier 1,Supplier Part Number 1,Supplier Unit Price 1,Supplier Subtotal 1
+
+"","XMLCTW","","D1, D2","2","Cree","XMLCTW-A2-0000-00C2AAAB1","Volume Production","Digi-Key","XMLCTW-A2-0000-00C2AAAB1CT-ND","99.05","198.1"
+"","ICS-43432","","U1","1","TDK InvenSense","ICS-43432","Volume Production","Digi-Key","1428-1053-1-ND","25.53","25.53"
+"","2x5","2x5 Header","J1","1","Samtec","FTSH-105-01-F-DV-K","Volume Production","Digi-Key","SAM8796-ND","24.97","24.97"
+"","cap","Capacitor","C1","1","Samsung","CL05B104KP5NNNC","Volume Production","Digi-Key","1276-1002-1-ND","0.9283","0.9283"
+"","res","Resistor","L, R","2","Stackpole Electronics","RMCF0402ZT0R00","Volume Production","Digi-Key","RMCF0402ZT0R00CT-ND","0.1114","1.11"
+"","ID2.25x2.5mm","WA-SMST SMT Steel Spacer non stop, OD4.35mm, ID2.25x2.5mm","MH1, MH2, MH3, MH4","4","Wurth Electronics","9774025943R","Unknown","Digi-Key","732-10939-1-ND","7.52","30.08"
